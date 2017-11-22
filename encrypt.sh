@@ -1,13 +1,5 @@
-#!/bin/bash
-#title 		:Encrypt.sh
-#Author 	:David Foley
-#Student #	:R00092680
-#Date		:Tuesday 27th September --> version 1 
-#Date		:Saturday 8th October --> version 2 --> Code Review 
-#-------------------------------------------
- 
+!/bin/bash
 ENCRYPTFILE=$1
-
 #IF STATMENT FOR HELPER -- 
 if [ $1 = "--help" ]; then 
 echo "Usage: `basename $0` [Options..]"
